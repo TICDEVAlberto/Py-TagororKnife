@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]          # Archivos de bytecode
+*.pyo              # Archivos optimizados de Python
+*.pyd              # Módulos de Python para Windows
+*.egg-info/       # Metadatos de paquetes
+.venv/            # Carpeta de entornos virtuales (si usas uno)
+env/              # Carpeta de entornos virtuales
+
+# Archivos de configuración de IDE
+.idea/            # Archivos de configuración de JetBrains IDEs (PyCharm, etc.)
+.vscode/          # Archivos de configuración de Visual Studio Code
+
+# Archivos de configuración de sistema
+.DS_Store         # Archivos del sistema macOS
+Thumbs.db         # Archivos del sistema Windows
+
+# Archivos temporales
+*.log             # Archivos de log
+*.tmp             # Archivos temporales
+*.swp             # Archivos swap de editores de texto
+
+# Dependencias
+*.egg             # Archivos de distribución de paquetes
+dist/             # Carpeta de distribuciones
+build/            # Carpeta de construcción
+
+# Archivos de prueba
+.coverage         # Archivo de cobertura de código
+.pytest_cache/    # Caché de pytest
